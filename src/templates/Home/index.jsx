@@ -22,6 +22,7 @@ export class Home extends Component {
 
   loadPosts = async () => {
     const { page, postsPerPage } = this.state;
+    const teste = "é só um teste, PODE APAGAR ISSO";
 
     const postsAndPhotos = await loadPosts();
     this.setState({
